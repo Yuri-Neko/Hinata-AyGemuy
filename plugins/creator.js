@@ -6,13 +6,13 @@ let name = await conn.getName(who)
 
 
 if (command == 'owner') {
- let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;Saya Owner Hinata;Bot;;Md\nFN:Saya Owner Hinata Bot WhatsApp, Md\nNICKNAME:👑 Owner Hinata Bot\nORG:Wudy\nTITLE:soft\nitem1.TEL;waid=6282195322106:+62 821-9532-2106\nitem1.X-ABLabel:📞 Nomor Owner\nitem2.URL:https://s.id/Cerdasin62\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET:wudysoft@mail.com\nitem3.X-ABLabel:💌 Mail Owner HinataBot\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel:📍 Lokasi Saya\nBDAY;value=date:🔖 13 January 2001\nEND:VCARD`
+ let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;Saya Owner Hinata;Bot;;Md\nFN:Saya Owner Hinata Bot WhatsApp, Md\nNICKNAME:👑 Kyouka Hashiba\nORG:Kyouka\nTITLE:Hashiba\nitem1.TEL;waid=6282112080081:+62 821-1208-0081\nitem1.X-ABLabel:📞 Nomor Owner\nitem2.URL:https://yuri-neko.github.io\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET:apikeykyouka@mail.com\nitem3.X-ABLabel:💌 Mail Owner HinataBot\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel:📍 Lokasi Saya\nBDAY;value=date:🔖 19 **** ****\nEND:VCARD`
 const tag_own = await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard }] }}, { quoted: fliveLoc })
 let caption = `👋 Hai *${name} @${who.split("@")[0]}*, Nih Owner *${conn.user.name}* kak`
     await conn.sendButton(m.chat, caption, author, null, [['🎀 Sapa Owner', 'Huuu']], m, { quoted: tag_own, mentions: conn.parseMention(caption) })
 }
 if (command == 'pengembang') {
-  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;${author};;;\nFN:${author}\nORG:${author}\nTITLE:\nitem1.TEL;waid=6282195322106:+62 821-9532-2106\nitem1.X-ABLabel:${author}\nX-WA-BIZ-DESCRIPTION:${htjava} Nih pengembang ku kack yg mengaktifkan aq.\nX-WA-BIZ-NAME:${author}\nEND:VCARD`
+  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;${author};;;\nFN:${author}\nORG:${author}\nTITLE:\nitem1.TEL;waid=6282112080081:+62 821-1208-0081\nitem1.X-ABLabel:${author}\nX-WA-BIZ-DESCRIPTION:${htjava} Nih pengembang ku kack yg mengaktifkan aq.\nX-WA-BIZ-NAME:${author}\nEND:VCARD`
 await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard }] }}, { quoted: fgif })
 }
 if (command == 'creator') {
