@@ -6,16 +6,16 @@ import moment from 'moment-timezone'
 
 /*Oᴡɴᴇʀ number*/
 global.owner = [
-  ['6282195322106', '️Oᴡɴᴇʀ One', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Two', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Three', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Four', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Five', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Six', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Seven', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Eight', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Nine', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Teen', true]
+  ['6282112080081', '️Oᴡɴᴇʀ One', true],
+  ['6282112080081', '️Oᴡɴᴇʀ Two', true],
+  ['6282112080081', '️Oᴡɴᴇʀ Three', true],
+  ['6282112080081', '️Oᴡɴᴇʀ Four', true],
+  ['6282112080081', '️Oᴡɴᴇʀ Five', true],
+  ['6282112080081', '️Oᴡɴᴇʀ Six', true],
+  ['6282112080081', '️Oᴡɴᴇʀ Seven', true],
+  ['6282112080081', '️Oᴡɴᴇʀ Eight', true],
+  ['6282112080081', '️Oᴡɴᴇʀ Nine', true],
+  ['6282112080081', '️Oᴡɴᴇʀ Teen', true]
 ]
 global.mods = []
 global.prems = []
@@ -65,12 +65,10 @@ global.APIKeys = {
  'https://zenzapis.xyz' : 'f9fccfcff1'
 }
 
-/*Lolhuman*/
+/*Lolkey*/
 global.lolkey = 'sonelganz'
 /*Xteam*/
 global.xteamkey = 'NezukoTachibana281207'
-/*Xcoders*/
-global.xckey = 'BOhjM2hUVn'
 
 /*List Lolkey
 'sonelganz'
@@ -78,8 +76,8 @@ global.xckey = 'BOhjM2hUVn'
 */
 
 /*Number*/
-global.nomorbot = '6285171216276'
-global.nomorown = '6282195322106'
+global.nomorbot = '6283825121214'
+global.nomorown = '6282112080081'
 global.namebot = 'ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ'
 global.nameown = '「 Oᴡɴᴇʀ 」'
 
@@ -381,11 +379,11 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 
 /*Link*/
-global.sig = 'https://instagram.com/wudysoft'
-global.sgh = 'https://github.com/AyGemuy'
-global.sgc = 'https://chat.whatsapp.com/Fxz8FpQ0ddr2GrEjfYkJ1E'
-global.sdc = 'https://discord.com/wudysoft'
-global.snh = 'https://tiktok.com/@upload_file'
+global.sig = 'https://instagram.com/admin_kyouka'
+global.sgh = 'https://github.com/Yuri-Neko'
+global.sgc = 'https://chat.whatsapp.com/KNe0JtgrewI55Hkdp79M2q'
+global.sdc = 'https://discord.com/'
+global.snh = 'https://tiktok.com/@hiro_0163'
 
 /*Nsfw*/
 global.optsnsfw = true
@@ -428,31 +426,31 @@ global.htjava = '⫹⫺'
 /*Watermark*/
 global.stickpack = '.'
 global.stickauth = `☂︎ ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
-global.packname = '☂︎ Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.author = 'ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ X Wudysoft'
-global.multiplier = 10
+global.packname = '☂︎ Follow IG @admin_kyouka'
+global.author = 'ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ X KyoukaID' 
+global.multiplier = 69
 
 /*Pesan*/
 global.eror = 'Erorr...'
 global.wait = 'Wait...'
 global.render = 'Render...'
-global.webs = 'https://s.id/Cerdasin62'
+global.webs = 'https://shiori-hashiba.vercel.app'
 global.logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2d1.jpg'
-global.gcwangsaf = 'https://chat.whatsapp.com/Fxz8FpQ0ddr2GrEjfYkJ1E'
+global.gcwangsaf = 'https://chat.whatsapp.com/KNe0JtgrewI55Hkdp79M2q'
 
 /*Donasi*/
-global.saweria = 'https://saweria.co/wudysoft'
-global.dana = ['0887435373103']
-global.pulsa = ['082195322106']
-global.trakteer = 'https://trakteer.id/wudysoft'
-global.paypal = 'wudysoft@mail.com'
-global.gopay = '082195322106'
-global.pdana = '0887435373103'
-global.povo = '082195322106'
-global.pgopay = '082195322106'
-global.ppulsa = '082195322106'
-global.ppulsa2 = '082195322106'
-global.psaweria = 'https://saweria.com/Wudysoft'
+global.saweria = 'https://saweria.co/NekoYuri'
+global.dana = ['083825121214']
+global.pulsa = ['083825121214']
+global.trakteer = 'https://trakteer.id/'
+global.paypal = 'shiori@mail.com'
+global.gopay = '083825121214'
+global.pdana = '083825121214'
+global.povo = '083825121214'
+global.pgopay = '083825121214'
+global.ppulsa = '083825121214'
+global.ppulsa2 = '083825121214'
+global.psaweria = 'https://saweria.com/NekoYuri'
 
 /*Emoji*/
 global.rpg = {
